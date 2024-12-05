@@ -1,0 +1,326 @@
+[
+    {
+        "name": "Button",
+        "type": "Button",
+        "purpose": "Trigger an action or event",
+        "appearance": "Rectangular, clickable text or icon",
+        "tags": [
+            "button",
+            "clickable",
+            "action"
+        ],
+        "css": {
+            "padding": "10px 20px",
+            "font-size": "16px",
+            "border-radius": "4px"
+        }
+    },
+    {
+        "name": "Icon Button",
+        "type": "Button",
+        "purpose": "Trigger action with an icon",
+        "appearance": "Square button with an icon",
+        "tags": [
+            "button",
+            "icon",
+            "action"
+        ],
+        "css": {
+            "width": "40px",
+            "height": "40px",
+            "border-radius": "50%"
+        }
+    },
+    {
+        "name": "Heading 1",
+        "type": "Text",
+        "purpose": "Display main title or heading",
+        "appearance": "Large bold text",
+        "tags": [
+            "text",
+            "heading",
+            "h1"
+        ],
+        "css": {
+            "font-size": "32px",
+            "font-weight": "bold"
+        }
+    },
+    {
+        "name": "Heading 2",
+        "type": "Text",
+        "purpose": "Display a subheading",
+        "appearance": "Medium bold text",
+        "tags": [
+            "text",
+            "heading",
+            "h2"
+        ],
+        "css": {
+            "font-size": "28px",
+            "font-weight": "bold"
+        }
+    },
+    {
+        "name": "Paragraph",
+        "type": "Text",
+        "purpose": "Display body text",
+        "appearance": "Standard paragraph text",
+        "tags": [
+            "text",
+            "paragraph",
+            "body"
+        ],
+        "css": {
+            "font-size": "16px",
+            "line-height": "1.5"
+        }
+    },
+    {
+        "name": "Blockquote",
+        "type": "Text",
+        "purpose": "Highlight a quotation",
+        "appearance": "Indented italic text",
+        "tags": [
+            "text",
+            "quote",
+            "blockquote"
+        ],
+        "css": {
+            "font-style": "italic",
+            "border-left": "4px solid gray",
+            "padding": "10px"
+        }
+    },
+    {
+        "name": "Text Input",
+        "type": "Input",
+        "purpose": "Accept user text input",
+        "appearance": "Single-line input field",
+        "tags": [
+            "input",
+            "text",
+            "form"
+        ],
+        "css": {
+            "border": "1px solid gray",
+            "padding": "8px",
+            "border-radius": "4px"
+        }
+    },
+    {
+        "name": "Password Input",
+        "type": "Input",
+        "purpose": "Accept sensitive user input",
+        "appearance": "Single-line input with hidden characters",
+        "tags": [
+            "input",
+            "password",
+            "form"
+        ],
+        "css": {
+            "border": "1px solid gray",
+            "padding": "8px",
+            "border-radius": "4px"
+        }
+    },
+    {
+        "name": "Search Input",
+        "type": "Input",
+        "purpose": "Search for content",
+        "appearance": "Input field with a search icon",
+        "tags": [
+            "input",
+            "search",
+            "form"
+        ],
+        "css": {
+            "border": "1px solid gray",
+            "padding": "8px",
+            "border-radius": "4px"
+        }
+    },
+    {
+        "name": "Dropdown",
+        "type": "Select",
+        "purpose": "Choose an option from a list",
+        "appearance": "Clickable dropdown menu",
+        "tags": [
+            "select",
+            "dropdown",
+            "menu"
+        ],
+        "css": {
+            "padding": "10px",
+            "border-radius": "4px"
+        }
+    },
+    {
+        "name": "Radio Button",
+        "type": "Input",
+        "purpose": "Select one option from a group",
+        "appearance": "Circular button with a dot when selected",
+        "tags": [
+            "radio",
+            "input",
+            "selection"
+        ],
+        "css": {
+            "width": "20px",
+            "height": "20px",
+            "border-radius": "50%"
+        }
+    },
+    {
+        "name": "Checkbox",
+        "type": "Input",
+        "purpose": "Select or deselect an option",
+        "appearance": "Square box with a checkmark when selected",
+        "tags": [
+            "checkbox",
+            "input",
+            "selection"
+        ],
+        "css": {
+            "width": "20px",
+            "height": "20px",
+            "border": "1px solid black"
+        }
+    },
+    {
+        "name": "Image",
+        "type": "Media",
+        "purpose": "Display a visual element",
+        "appearance": "Rectangular or square picture",
+        "tags": [
+            "image",
+            "media",
+            "visual"
+        ],
+        "css": {
+            "max-width": "100%",
+            "height": "auto",
+            "border-radius": "4px"
+        }
+    },
+    {
+        "name": "Video",
+        "type": "Media",
+        "purpose": "Embed a video",
+        "appearance": "Video player with controls",
+        "tags": [
+            "video",
+            "media",
+            "playback"
+        ],
+        "css": {
+            "width": "100%",
+            "height": "auto"
+        }
+    },
+    {
+        "name": "Audio",
+        "type": "Media",
+        "purpose": "Embed an audio player",
+        "appearance": "Audio player with controls",
+        "tags": [
+            "audio",
+            "media",
+            "playback"
+        ],
+        "css": {
+            "width": "100%"
+        }
+    },
+    {
+        "name": "Navigation Bar",
+        "type": "Navigation",
+        "purpose": "Provide site-wide navigation",
+        "appearance": "Horizontal menu with links",
+        "tags": [
+            "navigation",
+            "menu",
+            "links"
+        ],
+        "css": {
+            "background-color": "blue",
+            "padding": "10px"
+        }
+    },
+    {
+        "name": "Breadcrumbs",
+        "type": "Navigation",
+        "purpose": "Show site hierarchy",
+        "appearance": "Horizontal text links separated by slashes",
+        "tags": [
+            "navigation",
+            "breadcrumbs"
+        ],
+        "css": {
+            "font-size": "14px",
+            "color": "gray"
+        }
+    },
+    {
+        "name": "Progress Bar",
+        "type": "Indicator",
+        "purpose": "Show task progress",
+        "appearance": "Horizontal bar with filling animation",
+        "tags": [
+            "indicator",
+            "progress",
+            "bar"
+        ],
+        "css": {
+            "background-color": "gray",
+            "height": "10px"
+        }
+    },
+    {
+        "name": "Spinner",
+        "type": "Indicator",
+        "purpose": "Indicate loading state",
+        "appearance": "Animated circular spinner",
+        "tags": [
+            "indicator",
+            "spinner",
+            "loading"
+        ],
+        "css": {
+            "animation": "spin 1s linear infinite",
+            "border-radius": "50%"
+        }
+    },
+    {
+        "name": "Modal",
+        "type": "Popup",
+        "purpose": "Display content in an overlay",
+        "appearance": "Centered window over the page",
+        "tags": [
+            "modal",
+            "popup",
+            "overlay"
+        ],
+        "css": {
+            "background-color": "white",
+            "padding": "20px",
+            "box-shadow": "0 4px 8px gray"
+        }
+    },
+    {
+        "name": "Tooltip",
+        "type": "Popup",
+        "purpose": "Provide additional info on hover",
+        "appearance": "Small text box near the cursor",
+        "tags": [
+            "tooltip",
+            "hover",
+            "info"
+        ],
+        "css": {
+            "font-size": "12px",
+            "background-color": "black",
+            "color": "white"
+        }
+    }
+]
