@@ -12,13 +12,21 @@ div:hover>div {
     visibility: visible;
 }
 
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: whitesmoke;
+}
 
 .app-main-form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    width: 50%;
   }
   
   .app-main-form {
@@ -41,6 +49,7 @@ div:hover>div {
     outline: none;
     border: none;
     color: whitesmoke;
+    font-weight: 500;
     font-size: medium;
   }
   
@@ -51,7 +60,7 @@ div:hover>div {
     background-color: mediumslateblue;
     color: whitesmoke;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 500;
     font-size: medium;
   }
   
