@@ -1,5 +1,22 @@
 [
     {
+        "name": "Div Element",
+        "type": "Container",
+        "purpose": "Wrap and group elements or text",
+        "appearance": "Rectangular container",
+        "tags": [
+            "container",
+            "div",
+            "layout"
+        ],
+        "css": {
+            "padding": "10px",
+            "border": "1px solid gray",
+            "border-radius": "5px",
+            "background-color": "#f9f9f9"
+        }
+    },
+    {
         "name": "Button",
         "type": "Button",
         "purpose": "Trigger an action or event",
